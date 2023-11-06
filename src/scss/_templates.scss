@@ -1,0 +1,81 @@
+* {
+  //   background-color: #f02222;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  border: none;
+}
+
+.hide {
+  display: none !important;
+}
+
+@mixin btn-hashtag {
+  font-size: 20px;
+  border-radius: 25px;
+  box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  display: flex;
+  padding: 4px 16px;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin btn-icon {
+  border: none;
+  background-color: unset;
+}
+
+.banner {
+  height: 440px;
+  width: 360px;
+  background-color: #fff;
+  border-radius: 25px;
+  overflow: hidden;
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  & .img-div {
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    img {
+      height: 100%;
+      width: auto;
+      transition: height 0.3s ease;
+      &:hover {
+        height: 106%;
+      }
+    }
+  }
+  & .content-div {
+    width: 100%;
+    height: 25%;
+    & .name {
+      display: flex;
+      justify-content: space-between;
+      padding: 1vh;
+      p {
+        font-size: 24px;
+      }
+      button {
+        @include btn-icon;
+      }
+    }
+    & .location {
+      display: flex;
+      justify-content: space-between;
+      padding: 1vh;
+      button {
+        color: #7fb685;
+        font-size: 20px;
+        background-color: none;
+        border: none;
+      }
+    }
+  }
+}
