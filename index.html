@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Language" content="en" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/css/index.min.css" />
+    <title>Guider</title>
+  </head>
+  <body>
+    <!--! header ---------------------------------------------->
+    <header>
+      <div class="logo">
+        <img src="./src/img/Logo.png" alt="Logo" style="height: 66px" />
+      </div>
+      <button class="menu-min">
+        <!-- icon666.com - MILLIONS vector ICONS FREE --><svg
+          version="1.1"
+          id="Capa_1"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          x="0px"
+          y="0px"
+          height="30"
+          viewBox="0 0 384 384"
+          style="enable-background: new 0 0 384 384"
+          xml:space="preserve"
+        >
+          <g>
+            <g>
+              <g>
+                <rect x="0" y="277.333" width="384" height="42.667" />
+                <rect x="0" y="170.667" width="384" height="42.667" />
+                <rect x="0" y="64" width="384" height="42.667" />
+              </g>
+            </g>
+          </g>
+        </svg>
+      </button>
+      <div class="menu">
+        <ul>
+          <li class="active">Home</li>
+          <li>Places to Eat</li>
+          <li>Places to Explore</li>
+          <li>Services</li>
+          <li>Login</li>
+        </ul>
+      </div>
+    </header>
+    <!--! main ----------------------------------------------->
+    <main>
+      <!--! Explore Playas del Coco --------->
+      <div class="city">
+        <h1>Guider</h1>
+        <div class="explore">
+          <span>Explore&nbsp;&nbsp;</span>
+          <p>Playas del Coco</p>
+        </div>
+
+        <div class="sliders">
+          <!-- слайдер 1 -->
+          <div class="slider">
+            <div class="top-70">
+              <img
+                src="./src/img/Food-qdyid4lytdkwy0orj1pvzsj82y4k2p5otvsckvdo6w.png"
+                alt=""
+              />
+            </div>
+            <div class="bottom-30">
+              <p>Places to Eat</p>
+              <span>Where to Eat</span>
+            </div>
+            <button>X places</button>
+          </div>
+          <!-- слайдер 2 -->
+          <div class="slider">
+            <div class="top-70">
+              <img
+                src="./src/img/Explore-qdyigwwkccrhph6sf6msjc527tgs2t6romdr5zrl4o.png"
+                alt=""
+              />
+            </div>
+            <div class="bottom-30">
+              <p>Places to Explore</p>
+              <span>Where to Go</span>
+            </div>
+            <button>X places</button>
+          </div>
+          <!-- слайдер 3 -->
+          <div class="slider">
+            <div class="top-70">
+              <img
+                src="./src/img/Shop-qdyikzjdyic80n9smy0lcb4yvxe1flcw8s5i15q660.png"
+                alt=""
+              />
+            </div>
+            <div class="bottom-30">
+              <p>Services</p>
+              <span>Where to Buy / Fix</span>
+            </div>
+            <button>X places</button>
+          </div>
+        </div>
+      </div>
+      <!--!  Recent Listings ---------------->
+      <div class="listings">
+        <div class="explore">
+          <span>Recent&nbsp;&nbsp;</span>
+          <p>Listings</p>
+        </div>
+        <div class="listings__banners">
+          <!-- loading="lazy" ленивая загрузка для img -->
+          <div class="banner">
+            <div class="img-div">
+              <img
+                src="https://media-cdn.tripadvisor.com/media/photo-s/1c/fa/7f/2f/caption.jpg"
+                alt=""
+              />
+              <div class="img__hashtag"></div>
+            </div>
+            <div class="content-div">
+              <div class="name">
+                <p>Name</p>
+                <button class="banner__favorites-off">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="23"
+                    height="30"
+                    viewBox="0 0 23 30"
+                    fill="none"
+                  >
+                    <path
+                      d="M20.7194 4.5382C20.7194 3.03438 19.4544 1.81528 17.894 1.81528H4.70894C3.14854 1.81528 1.88358 3.03438 1.88358 4.5382V26.621L10.8495 21.8947C11.1311 21.7463 11.4718 21.7463 11.7534 21.8947L20.7194 26.621V4.5382ZM1.39373 28.9483C0.76612 29.2791 0 28.8414 0 28.152V4.5382C0 2.03182 2.10827 0 4.70894 0H17.894C20.4947 0 22.6029 2.03182 22.6029 4.5382V28.152C22.6029 28.8414 21.8368 29.2791 21.2092 28.9483L11.3015 23.7256L1.39373 28.9483Z"
+                      fill="#1CBDE7"
+                    />
+                  </svg>
+                </button>
+                <button class="banner__favorites-on hide">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="23"
+                    height="31"
+                    viewBox="0 0 23 31"
+                    fill="none"
+                  >
+                    <path
+                      d="M0 30.4244V3.11248C0 1.55205 1.26494 0.287109 2.82537 0.287109H19.7776C21.338 0.287109 22.6029 1.55205 22.6029 3.11248V30.4244L11.3015 23.8318L0 30.4244Z"
+                      fill="#1CBDE7"
+                    />
+                  </svg>
+                </button>
+              </div>
+              <div class="location">
+                <p>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="14"
+                    height="19"
+                    viewBox="0 0 14 19"
+                    fill="none"
+                  >
+                    <path
+                      d="M7.55227 17.8941C12.7349 10.3808 13.6969 9.60969 13.6969 6.84845C13.6969 3.06614 10.6308 0 6.84845 0C3.06615 0 6.67572e-06 3.06614 6.67572e-06 6.84845C6.67572e-06 9.60969 0.962 10.3808 6.14463 17.8941C6.48474 18.3854 7.21221 18.3853 7.55227 17.8941ZM6.84845 9.70197C5.27249 9.70197 3.99493 8.42441 3.99493 6.84845C3.99493 5.27248 5.27249 3.99493 6.84845 3.99493C8.42442 3.99493 9.70197 5.27248 9.70197 6.84845C9.70197 8.42441 8.42442 9.70197 6.84845 9.70197Z"
+                      fill="#1CBDE7"
+                    />
+                  </svg>
+                  Playa del Coco
+                </p>
+                <button>Open</button>
+              </div>
+            </div>
+          </div>
+          <div class="banner"></div>
+          <div class="banner"></div>
+          <div class="banner"></div>
+          <div class="banner"></div>
+          <div class="banner"></div>
+        </div>
+      </div>
+      <!--! Find a place on a map ----------->
+      <div class="map">
+        <div class="Find-on-a-map">
+          <p>Find a place on a&nbsp;<span>map</span></p>
+        </div>
+        <div class="Find-a-place">
+          <p><span>Find&nbsp;</span>a place</p>
+          <div class="filters">
+            <select class="Category">
+              <option value="Category1">Category 1</option>
+              <option value="Category2">Category 2</option>
+              <option value="Category3">Category 3</option>
+            </select>
+            <input type="text" placeholder="Keywords" />
+            <select class="Location">
+              <option value="Location1">Location 1</option>
+              <option value="Location2">Location 2</option>
+              <option value="Location3">Location 3</option>
+            </select>
+            <button>Search</button>
+          </div>
+        </div>
+
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15689.093388693487!2d-85.69939325!3d10.557769850000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f9e299a8139502d%3A0x9e957256d13030f0!2z0J_Qu9Cw0LnRjyDQlNC10LvRjCDQmtC-0LrQvg!5e0!3m2!1sru!2s!4v1698796431938!5m2!1sru!2s"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+      <!--!  Places to Eat ----------------->
+      <div class="places">
+        <div class="places__to-Eat">
+          <h1>Places to Eat</h1>
+          <p>Where&nbsp;<span>to Eat</span></p>
+        </div>
+        <div class="places__content">
+          <aside class="search-settings">
+            <!-- Здесь разместить  настройки поиска -->
+            <h2>Find place next to you</h2>
+            <input type="text" placeholder="Your location" />
+            <!-- * ---------------- -->
+            <div class="distance">
+              <svg width="200" height="4">
+                <line
+                  x1="0"
+                  y1="00"
+                  x2="200"
+                  y2="0"
+                  stroke="black"
+                  stroke-width="2"
+                />
+              </svg>
+              <p>10 km around</p>
+            </div>
+            <!-- * ---------------- -->
+            <div class="type">
+              <p>Type</p>
+              <div class="type__btn">
+                <button></button>
+                <button></button>
+                <button></button>
+              </div>
+            </div>
+            <!-- * ---------------- -->
+            <div class="place">
+              <p>Place</p>
+              <input type="text" placeholder="Any location" />
+            </div>
+            <!-- * ---------------- -->
+            <div class="keywords">
+              <p>Keywords</p>
+              <input type="text" placeholder="Any location" />
+            </div>
+
+            <!-- * ---------------- -->
+            <div class="open-now">
+              <p>Open now</p>
+              <label class="open-now__switch">
+                <input type="checkbox" />
+                <span class="slider"></span>
+              </label>
+            </div>
+            <!-- * ---------------- -->
+            <button class="Search"></button>
+            <!-- * ---------------- -->
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15689.093388693487!2d-85.69939325!3d10.557769850000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f9e299a8139502d%3A0x9e957256d13030f0!2z0J_Qu9Cw0LnRjyDQlNC10LvRjCDQmtC-0LrQvg!5e0!3m2!1sru!2s!4v1698796431938!5m2!1sru!2s"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </aside>
+          <!-- * xxxxxxxxxxxxxxxxxxx -->
+
+          <div class="places__galeru">
+            <div class="cards">
+              <div class="card"></div>
+              <div class="card"></div>
+              <div class="card"></div>
+            </div>
+
+            <button class="see-more">See more...</button>
+          </div>
+        </div>
+      </div>
+      <!--! revealing-the-card  -->
+      <div class="revealing-the-card">
+        <div class="card-title">
+          <h1>Java Coffee</h1>
+          <p>Playa del Coco</p>
+        </div>
+        <!-- * ---------------- -->
+        <div class="photo-gallery">
+          <img
+            src="https://s.restorating.ru/w/1920x1080/articles/3056/None-116297.jpg"
+            alt="photo"
+          />
+          <div class="photo-list">
+            <img
+              src="https://s.restorating.ru/w/1920x1080/articles/3056/None-116297.jpg"
+              alt=""
+            />
+            <img
+              src="https://thumb.tildacdn.com/tild6233-3362-4139-b535-386535393636/-/resize/824x/-/format/webp/koncepciya-kafe.jpg"
+              alt=""
+            />
+            <img
+              src="https://elaginpark.org/upload/iblock/45d/45dfab9c8970eb06d198a7e74187e4c1.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+        <!-- * ---------------- -->
+        <!-- теги - иконки -->
+        <div class="card-action">
+          <div class="card-action__hashtag">
+            <button>Cafe</button>
+            <button>Cafe</button>
+          </div>
+          <div class="card-action__favorite">
+            <button class="share-btn">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="33"
+                height="31"
+                viewBox="0 0 33 31"
+                fill="none"
+              >
+                <path
+                  d="M24.483 20.77C23.4675 20.77 22.5589 21.1575 21.8641 21.7646L12.3369 16.4042C12.4037 16.1071 12.4572 15.81 12.4572 15.5C12.4572 15.19 12.4037 14.893 12.3369 14.5959L21.7572 9.28712C22.4787 9.93296 23.4274 10.3334 24.483 10.3334C26.7012 10.3334 28.4917 8.60254 28.4917 6.45837C28.4917 4.31421 26.7012 2.58337 24.483 2.58337C22.2649 2.58337 20.4744 4.31421 20.4744 6.45837C20.4744 6.76837 20.5279 7.06546 20.5947 7.36254L11.1744 12.6713C10.4529 12.0255 9.50417 11.625 8.44856 11.625C6.23046 11.625 4.43994 13.3559 4.43994 15.5C4.43994 17.6442 6.23046 19.375 8.44856 19.375C9.50417 19.375 10.4529 18.9746 11.1744 18.3288L20.6882 23.7021C20.6214 23.9734 20.5813 24.2575 20.5813 24.5417C20.5813 26.6213 22.3318 28.3134 24.483 28.3134C26.6343 28.3134 28.3848 26.6213 28.3848 24.5417C28.3848 22.4621 26.6343 20.77 24.483 20.77Z"
+                  fill="#1CBDE7"
+                />
+              </svg>
+            </button>
+            <button class="favorite-btn">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="31"
+                viewBox="0 0 24 31"
+                fill="none"
+              >
+                <path
+                  d="M0.5 31V2.90625C0.5 1.30115 1.78716 0 3.375 0H20.625C22.2128 0 23.5 1.30115 23.5 2.90625V31L12 24.2188L0.5 31Z"
+                  fill="#1CBDE7"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+        <!-- * ---------------- -->
+        <!-- контакты -->
+        <div class="card-contacts">
+          <div class="card-contacts__tel">
+            <p>Description about the place</p>
+            <div>
+              <img src="" alt="" />
+              <span>8697-8602</span>
+            </div>
+          </div>
+          <div class="card-contacts__whatsapp">
+            <p>Can be several proposals</p>
+            <div>
+              <img src="" alt="" />
+              <span>8697-8602</span>
+            </div>
+          </div>
+        </div>
+        <!-- * ---------------- -->
+        <!-- время работы work time-->
+        <div class="card-work-route">
+          <div class="card-work-route__days">
+            <p>Description about the place</p>
+            <div>
+              <p>Mon - Sun</p>
+              <span>12:00 PM - 10:00 PM</span>
+            </div>
+          </div>
+          <div class="card-work-route__route">
+            <p>Can be several proposals</p>
+            <div>
+              <img src="" alt="" />
+
+              <span>Get directions</span>
+            </div>
+          </div>
+        </div>
+        <!-- * ---------------- -->
+        <!-- карта -->
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15689.093388693487!2d-85.69939325!3d10.557769850000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f9e299a8139502d%3A0x9e957256d13030f0!2z0J_Qu9Cw0LnRjyDQlNC10LvRjCDQmtC-0LrQvg!5e0!3m2!1sru!2s!4v1698796431938!5m2!1sru!2s"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <!-- * ---------------- -->
+        <!-- адрес на карте -->
+        <div class="card-address">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="14"
+            height="22"
+            viewBox="0 0 14 22"
+            fill="none"
+          >
+            <path
+              d="M6.2806 20.757C0.983281 12.4085 0 11.5516 0 8.48343C0 4.28066 3.13399 0.873657 7 0.873657C10.866 0.873657 14 4.28066 14 8.48343C14 11.5516 13.0167 12.4085 7.7194 20.757C7.37177 21.3029 6.6282 21.3029 6.2806 20.757ZM7 11.6542C8.61084 11.6542 9.91667 10.2346 9.91667 8.48343C9.91667 6.73227 8.61084 5.31269 7 5.31269C5.38916 5.31269 4.08333 6.73227 4.08333 8.48343C4.08333 10.2346 5.38916 11.6542 7 11.6542Z"
+              fill="#1CBDE7"
+            />
+          </svg>
+          <p>H846+R8 Guanacaste Province, Coco, Costa Rica</p>
+        </div>
+        <!-- * xxxxxxxxxxxxxxxx -->
+      </div>
+      <!--!  -->
+    </main>
+    <!--! footer ------------------------------------------->
+    <footer>
+      <div class="author">2023 © Guider Bogoda Pro</div>
+      <div class="information">
+        <button class="Privacy-policy">Privacy policy</button>
+        <button class="Contact-us">Contact us</button>
+      </div>
+    </footer>
+    <!--! отдельные кнопки --------------------------------->
+    <!-- появление при прокрутки страницы вверх  -->
+    <button class="to-the-top hide">
+      <svg
+        id="Layer_1"
+        enable-background="new 0 0 1500 1500"
+        viewBox="0 0 1500 1500"
+        xmlns="http://www.w3.org/2000/svg"
+        width="40"
+        height="40"
+      >
+        <g>
+          <path
+            d="m1261.1 516.7-92.6 92.6-352.7-352.7v1237.4h-130.9v-1237.4l-353.4 353.4-92.6-92.6 511.4-511.4z"
+            fill="#000000"
+            style="fill: #6e6e6e"
+          ></path>
+        </g>
+      </svg>
+    </button>
+  </body>
+</html>
